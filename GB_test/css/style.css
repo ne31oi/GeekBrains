@@ -1,0 +1,126 @@
+@import "font-awesome.min.css";
+*{
+    padding:0;
+    margin: 0;
+    font-family: Arial;
+}
+.container{
+    max-width:1280px;
+    margin: 0 auto;
+}
+header,section,footer{
+    width: 100%;
+}
+header,.contact{
+    background-color: #445161;
+    color: white;
+}
+header,section  {
+    padding: 50px;
+}
+header h1,li{
+    font-weight: 400;
+   
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+header h1{
+    font-size: 60px;
+
+}
+header ul{
+    margin-top:51px;
+
+}
+header li{
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+header li i{
+    margin-right: 10px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+
+}
+.about h2{
+    color: #445161;
+    margin-bottom:30px;
+
+}
+.about p{
+    max-width: 649px;
+    color:#333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+    margin-bottom: 20px;
+}
+.contact{
+    height: 509px;
+}
+.contact h2{
+    text-align: center;
+    margin-bottom: 31px;
+}
+.contact form{
+    float: left;
+    width: 500px;
+    margin-left: 250px;
+}
+.contact .contact_icon{
+    width: 300px;
+    float: left;
+    margin-left: 46px;
+}
+.contact input[type=text],input[type=email]{
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 500px;
+    height: 40px;
+    margin-bottom: 21px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 10px;
+}
+.contact textarea{
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 500px;
+    height: 170px;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.contact input[type=submit]{
+    border: none;
+    border-radius: 5px;
+    background-color:      #ffffff;
+    width: 140px;
+    height: 40px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin: 35px 180px;
+    text-align: center;
+}
+.contact_icon i{
+    font-size:25px;
+    position: relative;
+    top: 5px;
+}
